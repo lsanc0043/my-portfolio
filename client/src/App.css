@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-image: url("https://lahikes.net/wp-content/uploads/2019/07/IMG_9850.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.topnav {
+  background-color: rgba(51, 51, 51, 0.084);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style the links inside the navigation bar */
+.topnav button {
+  font-family:'Times New Roman', Times, serif;
+  border: 0px;
+  background-color: #f2f2f200;
+  text-align: center;
+  padding: 14px 10%;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav button.active {
+  background-color: #59769b;
+  color: white;
+  pointer-events: none;
+}
+
+.pfp {
+  border-radius: 50%;
+  left: 30vw;
+  width: 20%;
+  padding:10%;
+  position: fixed;
+}
+
+svg {
+  left: 30vw;
+  position: fixed;
+}
+
+.intro {
+  margin: 32% 30% 0px;
+  text-align: left;
+  font-size: 18px;
+  padding: 0px 2%;
+  background-color: rgba(240, 248, 255, 0.699);
+  border: solid 1px;
+  border-radius: 10%;
+}
+
+.contactForm {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  padding:1%;
+}
+
+.contactForm form {
+  width:fit-content;
+  text-align: right;
+}
+
+.contactForm .required {
+  color: red;
+}
+
+.about {
+  display: inline-block;
+  width: 500px;
+}
